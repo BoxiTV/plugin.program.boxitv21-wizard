@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.boxitv" name="[B][COLOR grey]BoxiTV of Kodi[/COLOR] Repo[/B]" version="1.0" provider-name="[B][COLOR red]BoxiTV Omega Kodi[/COLOR] Repo[/B]">
+        <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+    <extension point="xbmc.addon.repository" name="BoxiTV Omega Kodi">
+		<info compressed="true">https://github.com/BoxiTV/addon.xml</info>
+		<checksum>&gt;https://github.com/BoxiTV/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/BoxiTV/plugin.program.boxitv21-wizard/archive/refs/heads/main.zip</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install add-ons from BoxiTV of Kodi</summary>
+		<summary lang="de">Installiere Add-ons von BoxiTV of Kodi</summary>
+	
+		<description lang="de"> Installiere Add-ons von [COLOR white] Repo[/COLOR] [COLOR red]BoxiTV of Kodi.[/COLOR]
+	
+		[COLOR red]Webseite : [COLOR white]https://github.com/BoxiTV/[/COLOR]
+		[COLOR red]Telegram Gruppe : [COLOR white]https://t.me/boxitvmtb[/COLOR]
+		</description>
+		<disclaimer> [COLOR red]BoxiTV of Kodi[/COLOR]</disclaimer>
+	<website>https://github.com/BoxiTV/</website>
+			<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<screenshot />
+		</assets>
+	</extension>
+</addon></addons>
